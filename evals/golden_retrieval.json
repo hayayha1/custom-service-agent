@@ -1,0 +1,44 @@
+[
+  {
+    "id": "q1_colloquial_return",
+    "query": "东西不想要了怎么退钱，邮费谁掏？",
+    "slots": {},
+    "expected_doc_key": "policy_return_7day",
+    "category": null
+  },
+  {
+    "id": "q2_pronoun_headset_warranty",
+    "query": "它左耳没声音坏了，能免费换新吗？",
+    "slots": {
+      "active_orders": {
+        "20261119001": {
+          "order_id": "20261119001",
+          "product_name": "声学降噪耳机 Pro"
+        }
+      }
+    },
+    "expected_doc_key": "policy_warranty_audio",
+    "category": null
+  },
+  {
+    "id": "q3_exact_custom_cup",
+    "query": "定制刻字保温杯能不能7天无理由退货",
+    "slots": {},
+    "expected_doc_key": "policy_return_7day",
+    "category": null
+  },
+  {
+    "id": "q4_shipping_72h_stalled",
+    "query": "快递已经超过72小时一直没动是不是丢件了怎么赔",
+    "slots": {},
+    "expected_doc_key": "policy_shipping_delay",
+    "category": null
+  },
+  {
+    "id": "q5_invoice_red_flush",
+    "query": "发票抬头税号填错了怎么红冲重开专票",
+    "slots": {},
+    "expected_doc_key": "policy_invoice_rules",
+    "category": null
+  }
+]
